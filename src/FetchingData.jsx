@@ -52,7 +52,7 @@ const FetchingData = () => {
         <div className="flex  max-w-6xl gap-10  px-20 pt-10 h-fit">
           <img src={singleProduct.image} className="max-w-sm h-120" />
           <div className="flex flex-col justify-center">
-            <h1 className="text-3xl font-semibold">{singleProduct.title}</h1>
+            <h1 /*className="text-3xl font-semibold"*/>{singleProduct.title}</h1>
             <h3 className="text-4xl font-bold">{singleProduct.price}$</h3>
             <p className="text-xl text-red-500">{singleProduct.category}</p>
             <p className="text-xl ">{singleProduct.description}</p>
