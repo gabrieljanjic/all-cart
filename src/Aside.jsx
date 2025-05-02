@@ -3,7 +3,7 @@ import { aside } from "./data";
 const Aside = () => {
   const { setCategory, setExistence, setSingleProduct } = useGlobalContext();
   return (
-    <aside className="w-80 flex flex-col gap-3 py-4 bg-gray-100 h-screen">
+    <aside className="w-80 flex flex-col gap-3 py-4 bg-gray-100 h-auto">
       {aside.map((item) => {
         const Icon = item.icon;
         return (

@@ -1,5 +1,6 @@
 import "./App.css";
 import Aside from "./Aside";
+import BottomLine from "./BottomLine";
 import FetchingData from "./FetchingData";
 import Navbar from "./Navbar";
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Aside />
         <FetchingData />
       </div>
+      <BottomLine />
     </>
   );
 }
